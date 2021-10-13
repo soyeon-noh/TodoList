@@ -1,0 +1,17 @@
+ul.todo_list {
+  display: flex;
+  list-style: none;
+}
+
+ul.todo_list li {
+  flex: 1;
+  padding: 1rem;
+}
+
+ul.todo_list li:first-of-type {
+  color: #61dafb;
+}
+
+ul.todo_list li:last-of-type {
+  color: red;
+}

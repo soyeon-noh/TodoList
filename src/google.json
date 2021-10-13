@@ -1,0 +1,11 @@
+{
+  "web": {
+    "client_id": "819100873334-r3gjkehge2tsd5ka36ps16d20dflgfkc.apps.googleusercontent.com",
+    "project_id": "algebraic-argon-328806",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret": "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",
+    "javascript_origins": ["http://localhost:3000"]
+  }
+}

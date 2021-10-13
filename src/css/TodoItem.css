@@ -1,0 +1,35 @@
+.todo_item {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
+  user-select: none; /* 더블클릭했을때 블럭씌워지는거 없애는 속성*/
+}
+
+.todo_item:hover {
+  background-color: #ddd;
+}
+
+.todo_delete {
+  margin: 1rem;
+  color: #e64980;
+  font-weight: 600;
+  /* 평소에는 안보이게 */
+  opacity: 0;
+}
+
+/* item에 마우스를 올렸을 때 delete에 투명도를 1로 바꿔라*/
+/* todo item에 마우스가 hover되면 delete 버튼이 보이게*/
+.todo_item:hover .todo_delete {
+  opacity: 1;
+}
+
+.todo_text {
+  flex: 1;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: #adb5bd;
+}
